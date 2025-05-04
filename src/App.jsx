@@ -1,30 +1,45 @@
-import { useState } from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Alert } from "react-bootstrap";
-import Navbar from "./components/Navbar";
-import FrontPage from "./components/FrontPage";
-import Projects from "./components/Project";
-import Career from "./components/Career";
-import Education from "./components/Education";
+import Navbar from "./components/Navbar/Navbar";
+import FrontPage from "./components/FrontPage/FrontPage";
+import Projects from "./components/Project/Project";
+import Career from "./components/Career/Career";
+import Education from "./components/Education/Education";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import { Route, Routes } from "react-router-dom";
+import Resume from "./pages/Resume/Resume";
 
 function App() {
   return (
-    <div id="container">
-      <div className="main">
-        <Navbar />
-        <FrontPage />
+    <>
+      <div id="container">
+        <header>
+          <Navbar />
+        </header>
+        <main>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <FrontPage />
+                  <section>
+                    <Projects />
+                    <Career />
+                    <Skills />
+                    <Education />
+                  </section>
+                  <footer>
+                    <About />
+                  </footer>
+                </>
+              }
+            />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </main>
       </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="career">
-        <Career />
-      </div>
-      <div id="education">
-        <Education />
-      </div>
-    </div>
+    </>
   );
 }
 

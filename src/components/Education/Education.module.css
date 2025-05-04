@@ -1,0 +1,59 @@
+.educationList {
+  width: 90vw;
+  max-width: 600px;
+  margin: 10px 0;
+}
+
+.educationCard {
+  padding: 0 5px;
+  margin: 10px 0;
+}
+
+.educationCard h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 2px 0;
+}
+
+.eduYears {
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+/* Tablet (480p and up) */
+
+@media (min-width: 480px) {
+  .eduYears {
+    font-size: 0.78rem;
+  }
+}
+
+/* Small Desktop (768px and up) */
+
+@media (min-width: 768px) {
+  .educationList {
+    max-width: 750px;
+  }
+
+  .eduYears {
+    font-size: 0.78rem;
+  }
+}
+
+/* Desktop (1024px and up) */
+
+@media (min-width: 1024px) {
+  .educationList {
+    max-width: 1100px;
+  }
+}
+
+/* Large Desktop (1444px and up) */
+
+@media (min-width: 1444px) {
+  .educationList {
+    max-width: 1200px;
+  }
+}

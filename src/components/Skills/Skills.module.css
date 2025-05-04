@@ -1,0 +1,100 @@
+.skillSet {
+  width: 90vw;
+  max-width: 600px;
+  padding: 2px;
+}
+
+.techSkills {
+  margin: 10px 5px 15px 5px;
+}
+
+.techSkills h1 {
+  margin-bottom: 5px;
+}
+
+.techCardSet {
+  display: inline-flex;
+  margin: 5px 5px 0 0;
+}
+
+.techCard {
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin: 1px;
+  padding: 2px 8px;
+  gap: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.techCard:hover {
+  transform: scale(1.08);
+}
+
+.techCard span {
+  display: flex;
+  align-items: center;
+}
+
+.languageSet {
+  margin: 15px 5px 0 5px;
+}
+
+.languageSet h1 {
+  margin-bottom: 5px;
+}
+
+.languages {
+  margin: 5px;
+  margin-left: 0;
+}
+
+.languages div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.languages span {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+@media (min-width: 480px) {
+  .skillSet {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+  }
+
+  .techSkills {
+    margin: 10px 5px;
+    width: 50%;
+  }
+
+  .languageSet {
+    margin: 10px 5px;
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .skillSet {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillSet {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 1444px) {
+  .skillSet {
+    max-width: 1200px;
+  }
+}

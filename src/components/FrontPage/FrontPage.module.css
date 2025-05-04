@@ -1,0 +1,112 @@
+.page {
+  padding: 5px;
+  width: 90vw;
+  max-width: 600px;
+}
+
+.mainTitle {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.mainTitle p {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+
+.icons {
+  border-bottom: 2px solid rgb(157, 157, 157);
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.iconBox {
+  border-radius: 5px;
+  height: 33px;
+  padding: 1px 8px;
+  display: flex;
+}
+
+.iconBox a {
+  display: flex;
+  align-items: center;
+}
+
+.iconBox svg:hover {
+  transform: scale(1.1);
+}
+
+.blue:hover {
+  color: rgba(8, 8, 228, 0.6);
+}
+
+.description {
+  padding: 5px;
+}
+
+.description p {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+/* Tablet (480px and up) */
+
+@media (min-width: 480px) {
+  .mainTitle p {
+    font-size: 3.6rem; 
+  }
+
+  .description {
+    padding: 0 5px;
+  }
+}
+
+/* Small Desktop (768px and up) */
+
+@media (min-width: 768px) {
+  .page {
+    max-width: 750px;
+  }
+
+  .mainTitle p {
+    font-size: 6rem;
+  }
+}
+
+/* Desktop (1024px and up) */
+
+@media (min-width: 1024px) {
+  .page {
+    max-width: 1100px;
+  }
+
+  .mainTitle p {
+    font-size: 8rem;
+  }
+  
+  .iconBox {
+    padding: 2px 10px;
+  }
+}
+
+/* Large Desktop (1444px and up) */
+
+@media (min-width: 1444px) {
+  .page {
+    max-width: 1200px;
+  }
+
+  .icons {
+    gap: 25px;
+  }
+}

@@ -1,9 +1,9 @@
 # Node files
 #===========
 
-node_modules
+node_modules/
 
 # Confidential datas
 #===================
 
-src/datas/data.js
+src/data/

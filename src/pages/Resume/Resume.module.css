@@ -1,0 +1,16 @@
+.pdfErrorText {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.pdfErrorText a {
+  color: blue;
+}
+
+@media (min-width: 1444px) {
+    .pdfScreen {
+        justify-self: center;
+        width: 70vw;
+        max-width: 1100px;
+    }
+}
