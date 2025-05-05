@@ -6,4 +6,13 @@ node_modules/
 # Confidential datas
 #===================
 
-src/data/
+src/data/about.jsx
+src/data/projects.jsx
+src/data/skills.jsx
+src/data/data.js
+src/data/personal.js
+
+# CV file
+#=========
+
+public/CV.pdf
