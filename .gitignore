@@ -3,6 +3,11 @@
 
 node_modules/
 
+# Production file
+#=================
+
+dist/
+
 # Confidential datas
 #===================
 
