@@ -53,6 +53,10 @@
 /* Small Desktop (768px and up) */
 
 @media (min-width: 768px) {
+  .projectCard {
+    max-width: 750px;
+  }
+
   .techCard {
     font-size: 0.78rem;
   }
@@ -73,6 +77,10 @@
   .projectImage svg {
     width: 100%;
     height: 100%;
+  }
+
+  .projectItem {
+    width: 70vw;
   }
 }
 
