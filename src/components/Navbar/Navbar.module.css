@@ -124,7 +124,7 @@
   }
 
   .navList {
-    gap: 120px;
+    gap: 80px;
   }
 }
 
@@ -133,5 +133,9 @@
 @media (min-width: 1444px) {
   .sidebar {
     max-width: 1200px;
+  }
+
+  .navList {
+    gap: 120px;
   }
 }
