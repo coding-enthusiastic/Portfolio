@@ -94,10 +94,11 @@
   }
 
   .projectCard {
-    width: 45vw;
-    max-width: 540px;
-    margin: 0;
+    width: 43vw;
+    max-width: 500px;
     height: 100%;
+    padding: 10px 15px;
+    margin: 0;
     display: block;
     text-align: center;
     justify-items: center;
@@ -109,6 +110,21 @@
 
   .projectItem h1 {
     margin: 5px 0;
+  }
+
+  .projectItem {
+    width: 100%;
+  }
+
+  .projectItem p {
+    margin-top: 5px;
+    text-align: justify;
+  }
+
+  .projectImage span {
+    height: 150%;
+    width: 100%;
+    max-height: 300px;
   }
 }
 

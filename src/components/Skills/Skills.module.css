@@ -2,14 +2,15 @@
   width: 90vw;
   max-width: 600px;
   padding: 2px;
+  text-align: center;
 }
 
 .techSkills {
   margin: 10px 5px 15px 5px;
 }
 
-.techSkills h1 {
-  margin-bottom: 5px;
+.techSkills h1, .languageSet h1 {
+  margin-bottom: 10px;
 }
 
 .techCardSet {
@@ -42,10 +43,6 @@
   margin: 15px 5px 0 5px;
 }
 
-.languageSet h1 {
-  margin-bottom: 5px;
-}
-
 .languages {
   margin: 5px;
   margin-left: 0;
@@ -54,6 +51,7 @@
 .languages div {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
