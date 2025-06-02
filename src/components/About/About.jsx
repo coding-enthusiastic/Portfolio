@@ -13,11 +13,11 @@ function About() {
   return (
     <>
       <div id="info" className="commonCSS">
-        <div className={styles.footerArea}>
+        <div className={styles['footerArea']}>
           <h5>
             {siteDetails}
           </h5>
-          <a className={styles.arrow} href="#header">
+          <a className={styles['arrow']} href="#header">
             <TopArrow style={{ fontSize: "30px" }} />
           </a>
           <div>
